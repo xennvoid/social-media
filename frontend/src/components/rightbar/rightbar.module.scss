@@ -1,0 +1,55 @@
+.container {
+    flex: 2 0 0;
+    position: sticky;
+    top:69px;
+    height: calc(100vh - 69px);
+    overflow: scroll;
+    background-color: #f1f1f1;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    -webkit-box-shadow: 13px 11px 26px 0px rgb(157 157 157 / 42%);
+    -moz-box-shadow: 13px 11px 26px 0px rgb(157 157 157 / 42%);
+    box-shadow: 13px 11px 26px 0px rgb(157 157 157 / 42%);
+    border-radius: 1rem;
+}   
+
+.friends,.suggestions,.activities {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 26px;
+}
+
+.friend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.friend:last-child {
+    margin-bottom: 0;
+}
+
+.profile_image {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.suggestions{
+    
+}
+
+
+.activities {
+
+}

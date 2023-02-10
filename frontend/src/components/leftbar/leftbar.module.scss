@@ -1,0 +1,17 @@
+@import '../../styles/mixin.scss';
+
+.container {
+    flex: 1 0 0;
+    position: sticky;
+    top:69px;
+    height: calc(100vh - 69px);
+    overflow: scroll;
+
+    @include mobile {
+        display: none;
+    }
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}

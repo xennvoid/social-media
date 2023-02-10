@@ -1,0 +1,75 @@
+.card {
+    padding: 1rem;
+    -webkit-box-shadow: -5px 10px 26px 0px rgb(239 225 225 / 42%);
+    -moz-box-shadow: -5px 10px 26px 0px rgb(239 225 225 / 42%);
+    box-shadow: -5px 10px 26px 0px rgb(239 225 225 / 42%);
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+.time {
+    margin-top: 10px;
+}
+
+.time {
+    font-size: 12px;
+    color:rgb(160, 152, 152);
+}
+
+.settings {
+    cursor: pointer;
+}
+
+.content {
+    margin: 1rem 0;
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    font-size: 15px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.action svg {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.action span {
+    margin-left: 5px;
+}
+
+.action:last-child {
+    margin-right: 0;
+}
+
+.comments {
+    margin-top: 25px;
+}
+
+.comment_write {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin: 2rem 0;
+}
